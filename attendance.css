@@ -1,0 +1,18 @@
+body{
+    background-color: #EED9C8;
+}
+
+.assignment-card {
+    flex: 1;
+    min-width: 0;
+}   
+
+.assignment-card h5 {
+    width: 320px;
+    margin: 0;
+    width: 100%;
+}
+
+.att {
+    margin: 0;  
+}
