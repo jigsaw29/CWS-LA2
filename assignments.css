@@ -19,8 +19,12 @@ body{
     cursor: pointer;
 }
 
-.check:checked {
-    background-color: #C5C297;
+.check:checked::after {
+    left: 4px;
+    top: 0px;
+    width: 4px;
+    height: 9px;
+    border-width: 0 2px 2px 0;
 }
 
 .due {
