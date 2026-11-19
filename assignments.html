@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assignments.css">
+    <title>Assignments</title>
 </head>
 <body>
-    <p>Test</p>
+    <!-- Heading row -->
+    <div class="row align-items-center pt-2 mx-0">
+    <div class="col-2">
+        <a href="homepage.html">
+            <img src="Screenshot 2026-11-19 105517.png" class="arrow" alt="Back">
+        </a>
+    </div>
+
+    <div class="col-8 text-center">
+        <h3 class="m-0 fw-bold">Assignments</h3>
+    </div>
+
+    <!-- Assignment Cards -->
+    <section style="padding: 30px;">
+        <div class="assignment d-flex align-items-center gap-3 mb-3">
+            <input type="checkbox" id="check1" class="check">
+            <div class="assignment-card rounded-3 mb-1 p-1 card hover-lift " style="border-radius: 20px; background-color: #C5C297;">
+                <h5>CWS: Teacher's Assessment 2</h5>
+                <p class="due">Due: 20/11/2026 (Friday)</p>
+            </div>
+        </div>
+
+        <div class="assignment d-flex align-items-center gap-3 mb-3">
+            <input type="checkbox" id="check2" class="check">
+            <div class="assignment-card rounded-3 mb-1 p-1 card hover-lift " style="border-radius: 20px; background-color: #C5C297;">
+                <h5>QUAN: Report</h5>
+                <p class="due">Due: 21/11/2026 (Saturday)</p>
+            </div>
+        </div>
+
+        <div class="assignment d-flex align-items-center gap-3 mb-3">
+            <input type="checkbox" id="check3" class="check">
+            <div class="assignment-card">
+                <h5>FOP: Leetcode</h5>
+                <p>Due: 22/11/2026 (Sunday)</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
